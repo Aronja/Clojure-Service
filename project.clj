@@ -6,6 +6,7 @@
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [ring/ring-core "1.7.1"]
                  [ring/ring-jetty-adapter "1.7.1"]
+                 [ring/ring-json "0.5.0"]
                  [compojure "1.6.1"]]
   :main clojure-service.core
   :repl-options {:init-ns clojure-service.core})
